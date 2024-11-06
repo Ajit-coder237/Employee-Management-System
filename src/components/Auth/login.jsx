@@ -42,11 +42,7 @@ const Login = () => {
             type="password"
             placeholder="Enter your password"
           />
-          <button
-            type="submit"
-            className="mt-5 text-white outline-none bg-emerald-600 py-3 px-5 rounded-full text-xl"
-          >
-            {" "}
+          <button className="mt-8 w-full text-white outline-none bg-emerald-600 py-3 px-5 rounded-full text-xl">
             Log in
           </button>
         </form>
