@@ -46,10 +46,10 @@ const CreateTask = () => {
             id=""
             rows={5}
           ></textarea>
+          <button className="bg-emerald-500 py-3 hover:bg-emerald-600 px-5 rounded text-sm mt-4 w-full">
+            Create Task
+          </button>
         </div>
-        <button className="bg-emerald-500 py-3 hover:bg-emerald-600 px-5 rounded text-sm mt-4 w-full">
-          Create Task
-        </button>
       </form>
     </div>
   );
