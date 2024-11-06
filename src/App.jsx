@@ -7,12 +7,8 @@ const App = () => {
     <>
       {/* <Login /> */}
       <EmployeeDashboard />
-    
-    
     </>
-  
-  
-  )
+  );
 };
 
 export default App;
