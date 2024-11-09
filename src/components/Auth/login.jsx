@@ -41,7 +41,10 @@ const Login = ({ handleLogin }) => {
             type="password"
             placeholder="Enter your password"
           />
-          <button className="mt-8 w-full text-white outline-none bg-emerald-600 py-3 px-5 rounded-full text-xl">
+          <button
+            className="mt-8 w-full text-white outline-none bg-emerald-600 py-3 px-5 rounded-full text-xl"
+            type="submit"
+          >
             Log in
           </button>
         </form>
