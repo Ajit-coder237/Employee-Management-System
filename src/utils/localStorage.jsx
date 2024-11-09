@@ -12,18 +12,20 @@ const employees = [
     },
     tasks: [
       {
-        title: "Task 1",
-        description: "Complete the documentation for Project A.",
+        title: "System Architecture Design",
+        description:
+          "Design the system architecture for the new project to ensure scalability and maintainability.",
         date: "2024-11-10",
-        category: "Documentation",
+        category: "Architecture",
         active: true,
         newTask: true,
         completed: false,
         failed: false,
       },
       {
-        title: "Task 2",
-        description: "Review code for module X.",
+        title: "Code Review for Module X",
+        description:
+          "Conduct a detailed code review for the new feature in module X, ensuring coding standards and best practices.",
         date: "2024-11-11",
         category: "Code Review",
         active: true,
@@ -32,8 +34,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 3",
-        description: "Prepare a presentation for client meeting.",
+        title: "Client Presentation Preparation",
+        description:
+          "Prepare a comprehensive presentation for the client to showcase the product's progress and features.",
         date: "2024-11-12",
         category: "Presentation",
         active: false,
@@ -56,8 +59,9 @@ const employees = [
     },
     tasks: [
       {
-        title: "Task 1",
-        description: "Implement new features for Project B.",
+        title: "Feature Implementation for Project B",
+        description:
+          "Implement the new features as specified in the latest release for Project B, ensuring integration with existing components.",
         date: "2024-11-10",
         category: "Development",
         active: true,
@@ -66,8 +70,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 2",
-        description: "Conduct a unit test for new module.",
+        title: "Unit Testing for New Module",
+        description:
+          "Run unit tests to verify the functionality and stability of the newly implemented module, ensuring all edge cases are covered.",
         date: "2024-11-12",
         category: "Testing",
         active: true,
@@ -76,8 +81,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 3",
-        description: "Prepare weekly report.",
+        title: "Weekly Progress Report",
+        description:
+          "Prepare and submit the weekly progress report summarizing development, testing, and project milestones.",
         date: "2024-11-13",
         category: "Reporting",
         active: false,
@@ -86,8 +92,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 4",
-        description: "Update team on progress.",
+        title: "Team Status Update Meeting",
+        description:
+          "Organize a meeting to update the team on project status, new deadlines, and any roadblocks.",
         date: "2024-11-14",
         category: "Meeting",
         active: true,
@@ -110,8 +117,9 @@ const employees = [
     },
     tasks: [
       {
-        title: "Task 1",
-        description: "Analyze client feedback.",
+        title: "Client Feedback Analysis",
+        description:
+          "Analyze feedback received from the client to identify issues and areas of improvement for the product.",
         date: "2024-11-10",
         category: "Analysis",
         active: false,
@@ -120,8 +128,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 2",
-        description: "Develop prototype for feature Y.",
+        title: "Prototype Development for Feature Y",
+        description:
+          "Develop an initial prototype for the new feature Y, incorporating client requirements and design specifications.",
         date: "2024-11-11",
         category: "Development",
         active: true,
@@ -130,8 +139,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 3",
-        description: "Coordinate with design team.",
+        title: "Coordination with Design Team",
+        description:
+          "Coordinate with the design team to ensure feature Y’s design aligns with development requirements and timeline.",
         date: "2024-11-13",
         category: "Coordination",
         active: false,
@@ -140,8 +150,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 4",
-        description: "Prepare documentation for Project C.",
+        title: "Project C Documentation Preparation",
+        description:
+          "Prepare the project documentation for Project C, outlining key features, architecture, and installation guides.",
         date: "2024-11-15",
         category: "Documentation",
         active: true,
@@ -150,8 +161,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 5",
-        description: "Review project requirements.",
+        title: "Review Project Requirements",
+        description:
+          "Review the project requirements to ensure they are clear and achievable within the given timeline and resources.",
         date: "2024-11-16",
         category: "Review",
         active: false,
@@ -174,8 +186,9 @@ const employees = [
     },
     tasks: [
       {
-        title: "Task 1",
-        description: "Fix bugs in application.",
+        title: "Bug Fixing in Application",
+        description:
+          "Identify and fix critical bugs in the application that affect functionality and user experience.",
         date: "2024-11-10",
         category: "Debugging",
         active: true,
@@ -184,8 +197,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 2",
-        description: "Write unit tests for module Z.",
+        title: "Unit Testing for Module Z",
+        description:
+          "Write and run unit tests for module Z, ensuring full coverage and no regressions.",
         date: "2024-11-12",
         category: "Testing",
         active: true,
@@ -194,8 +208,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 3",
-        description: "Refactor old code.",
+        title: "Code Refactoring",
+        description:
+          "Refactor legacy code to improve readability, reduce technical debt, and enhance maintainability.",
         date: "2024-11-13",
         category: "Refactoring",
         active: true,
@@ -218,8 +233,9 @@ const employees = [
     },
     tasks: [
       {
-        title: "Task 1",
-        description: "Optimize database queries.",
+        title: "Optimize Database Queries",
+        description:
+          "Optimize SQL queries to improve database performance and reduce response times for large datasets.",
         date: "2024-11-10",
         category: "Database",
         active: true,
@@ -228,8 +244,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 2",
-        description: "Conduct performance tests.",
+        title: "Performance Testing of Application",
+        description:
+          "Conduct performance tests on the application to identify bottlenecks and areas for optimization.",
         date: "2024-11-11",
         category: "Testing",
         active: true,
@@ -238,8 +255,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 3",
-        description: "Coordinate with backend team.",
+        title: "Backend Team Coordination",
+        description:
+          "Coordinate with the backend team to address API issues and ensure seamless integration with frontend systems.",
         date: "2024-11-12",
         category: "Coordination",
         active: false,
@@ -248,8 +266,9 @@ const employees = [
         failed: false,
       },
       {
-        title: "Task 4",
-        description: "Deploy application update.",
+        title: "Deploy Application Update",
+        description:
+          "Deploy the latest application update to the production environment, ensuring minimal downtime and proper version control.",
         date: "2024-11-14",
         category: "Deployment",
         active: true,
