@@ -9,9 +9,7 @@ const CompleteTask = () => {
       </div>
       <h2 className="mt-5 text-2xl font-semibold">Make a youtube video</h2>
       <p className="text-sm mt-2">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident quo
-        veritatis dolor repellendus iure soluta tenetur reprehenderit, quia
-        culpa voluptates distinctio assumenda sit.
+       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic velit reiciendis accusamus quia explicabo laboriosam.
       </p>
       <div className="mt-5 flex justify-center items-center">
         <button className="rounded-md h-1/2 px-1 py-1 text-sm font-semibold bg-red-500">

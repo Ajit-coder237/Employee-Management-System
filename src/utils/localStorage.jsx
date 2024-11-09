@@ -5,7 +5,7 @@ const employees = [
     password: "123",
     firstName: "Aarav",
     taskCount: {
-      active: 400,
+      active: 2,
       newTask: 1,
       completed: 1,
       failed: 0,
