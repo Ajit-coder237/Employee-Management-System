@@ -8,10 +8,10 @@ const Header = () => {
     localStorage.setItem("loggedInUser", "");
 
     // Scroll to top smoothly, then reload after delay
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    setTimeout(() => {
-      window.location.reload();
-    }, 1000); // Adjust this duration as needed
+    // window.scrollTo({ top: 0, behavior: "smooth" });
+    // setTimeout(() => {
+    //   window.location.reload();
+    // }, 1000); // Adjust this duration as needed
   };
 
   return (

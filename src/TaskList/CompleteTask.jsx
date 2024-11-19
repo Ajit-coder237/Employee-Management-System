@@ -1,6 +1,6 @@
 import React from "react";
 
-const CompleteTask = () => {
+const CompleteTask = ({data}) => {
   return (
     <div className="flex-shrink-0 h-full w-[300px] p-5 bg-blue-400 rounded-xl cursor-pointer">
       <div className="flex justify-between items-center">
